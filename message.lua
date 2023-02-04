@@ -13,7 +13,7 @@ _G.KeyInput = "string"
 
 function Whyhub()
 	print("Injected")
-
+	local WhyHub = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Anti4iter4cb/WhyHubFree/main/WhyHub.lua')))()
 	OrionLib:Destroy()
 end
 
